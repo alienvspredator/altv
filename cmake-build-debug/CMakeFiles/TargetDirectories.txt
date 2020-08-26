@@ -1,3 +1,0 @@
-/Users/sheva/LocalDocuments/Development/Self/altv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/sheva/LocalDocuments/Development/Self/altv/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/sheva/LocalDocuments/Development/Self/altv/cmake-build-debug/CMakeFiles/altv.dir
