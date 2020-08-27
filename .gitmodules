@@ -1,3 +1,6 @@
 [submodule "include/altv-sdk"]
 	path = include/altv-sdk
 	url = git@github.com:altmp/cpp-sdk.git
+[submodule "external/fmt"]
+	path = external/fmt
+	url = git@github.com:fmtlib/fmt.git

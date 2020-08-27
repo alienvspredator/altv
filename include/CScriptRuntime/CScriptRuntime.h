@@ -8,9 +8,19 @@
 #include <altv-sdk/IScriptRuntime.h>
 
 namespace altmod {
-    class [[maybe_unused]] CScriptRuntime : public alt::IScriptRuntime {
+    class CScriptRuntime : public alt::IScriptRuntime {
     public:
         alt::IResource::Impl *CreateImpl(alt::IResource *resource) override;
+
+        void DestroyImpl(alt::IResource::Impl *impl) override;
+
+        static CScriptRuntime &Instance() {
+            static CScriptRuntime Instance;
+            return Instance;
+        }
+
+    private:
+        CScriptRuntime() = default;
     };
 }
 
